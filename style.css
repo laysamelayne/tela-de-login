@@ -1,0 +1,80 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica,arial;
+    color:#27273a;
+    border: 0;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+.button{
+    font-size: 1.2em;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    background-color: rgba(32, 87, 138, 0.767);
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.button:hover{
+    background-color: rgba(16, 16, 121, 0.808);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(16, 16, 121);
+    display: block;
+    text-align: right;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(46, 46, 248);
+}
+
+#tela{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    padding: 20px 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.287);
+
+}
+
+#formulario{
+    margin-top: 30px ;
+    margin-bottom: 30px ;
+    
+}
+
+label, input{
+    display: block;
+    width: 100%;
+    text-align: justify;
+
+}
+
+input{
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.418);
+}
+
+input.dados:focus{
+    border-bottom: 2px solid  rgb(16, 16, 121);
+
+}
+
